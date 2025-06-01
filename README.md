@@ -10,7 +10,7 @@
 
 ## Overview
 
-This project performs **sentiment analysis** on software amazon product reviews using classical ML models (SVM, Random Forest, KNN).  
+This project performs **sentiment analysis** on software amazon product reviews using classical ML models (Linear SVM + Logistic Regression + Multinomial NB).  
 It includes **data preprocessing**, **feature extraction**, and **model training**, all from **Colab notebooks** with **Drive integration** to save progress across sessions.
 
 ---
