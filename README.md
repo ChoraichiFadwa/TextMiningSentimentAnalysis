@@ -54,13 +54,14 @@ os.makedirs('/content/drive/MyDrive/sentiment_project', exist_ok=True)
 ```
 
 ### Repository Structure 
+```
 /notebooks/
 │
 ├── 01_preprocessing.py    # cleaning, labelisation, tokenisation, n-gram TF-IDF
 ├── 02_eda.py              # Exploratory Data Analysis
 ├── 03_model.py           # SVM, LR, NB wrappers
 └── 04_model_evaluation.py # Confusion matrix, Accuracy, F1 scores.
-
+```
 ## End-to-End Workflow
 
 1. **Pre-processing**  
