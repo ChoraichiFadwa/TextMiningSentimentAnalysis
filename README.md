@@ -44,12 +44,14 @@ Paste this in the **first cell** of each notebook:
 ```python
 from google.colab import drive
 drive.mount('/content/drive')
+```
 
 ### 3. Create project directory in Drive
 
 ```python
 import os
 os.makedirs('/content/drive/MyDrive/sentiment_project', exist_ok=True)
+```
 
 ### Repository Structure 
 /notebooks/
