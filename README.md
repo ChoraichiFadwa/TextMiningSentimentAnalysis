@@ -25,7 +25,7 @@ It includes **data preprocessing**, **feature extraction**, and **model training
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 - **Language** Python 3.11
 - **Libraries** `pandas`, `scikit-learn`, `numpy`, `matplotlib`, `transformers` (Hugging Face)
 - **Hardware** Google Colab T4 GPU
@@ -91,7 +91,7 @@ os.makedirs('/content/drive/MyDrive/sentiment_project', exist_ok=True)
 
 ---
 
-## 📈 Key Findings
+## Key Findings
 - **Label quality matters**: re-labelling with a fine-tuned BERT teacher boosted neutral recall before any modelling tweaks.  
 - **Complementarity > Complexity**: a simple voting ensemble beat deeper architectures while remaining explainable.  
 - **Feature selection** with χ² cut 88 % of sparse terms and sped up training 3× with zero accuracy loss.
